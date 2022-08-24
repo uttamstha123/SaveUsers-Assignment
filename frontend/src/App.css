@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.error-msg {
+  color: rgb(224, 34, 34);
+  font-family: verdana, sans-serif;
+  margin: 5px;
+}
+
+.success-msg {
+  color: rgb(34, 224, 113);
+  font-family: verdana, sans-serif;
+  margin: 5px;
+}
